@@ -1,20 +1,15 @@
-# _Boilerplate Website_
+# _Movie Tickets App_
 
-#### _This site comes with the all basic parts to get you started making a single page website fast. | Jan 24. 2020_
+#### _a webpage where a user can select the name of a movie, the time of day that they would like to see the movie and a movie for their age range. | Jan 28. 2020_
 
-#### By _**Dusty McCord**_
-[link to demo site](https://dustatron.github.io/boilerplate-simple-website/)
+#### By _**Dusty McCord & Joseph Wangemann**_
+[link to demo site coming](#)
 
 ## Description
 
-_This boilerplate site has one index.html file that is already linked to the included bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
+_This webpage will let a user select a name of a movie, the time of day that they would like to see the movie and their age. The webpage should let the user know how much their movie ticket will cost, based on those three factors. Consider that non-"first-release" movies, matinee and senior tickets tend to be cheaper than the regular priced ticket.
 
-
-There is a pre-built two input form with a submit button. There is also a simple jQuery function that will console.log when the submit button is clicked.
-
-The .gitignore file is a template for mac osx but a link is provided to get a template for any operating system. 
-
-[create a .gitignore template for your os here](https://www.gitignore.io/)
+Your constructor and prototype could be called Ticket and you can come up with the formula for determining how the price is calculated depending on the input from the user._
 
 ## Setup/Installation Requirements
 
@@ -51,8 +46,16 @@ git clone https://github.com/dustatron/boilerplate-simple-website.git
 
 Behavoir | Input | Output
 :---------:|:------:|:------:
-The program takes in input and console.log a 'click' | 'any word' | 'click'
-The program takes in any words and console logs the output | 'learning to code' | 'learning to code'
+The program shows new or old option which will return a list of new or old movies | old | list of old movies
+After user selects old or new movies the program provides a list of movies and the user can select a movie | die hard | die hard show times
+The progam will show movie details, a selectio of show times, age dropdown, and a 'Find Ticket' button. The user will select their time and age.| 12:00 and 64 | ticket price
+The program will show ticket price and quanity of one. The user can change quanity and the program will update the price |  2 | $10
+The program will show a reset button and allow the user to start over | reset push | show new or old option
+
+
+
+
+
 
 ## Support 
 
@@ -90,5 +93,5 @@ _The software is provided as is. It might work as expected - or not. Just don't 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright (c) 2020 **_Dusty McCord_**
+Copyright (c) 2020 **_Dusty McCord and Joseph Wangemann_**
 

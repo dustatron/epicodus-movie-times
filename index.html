@@ -12,42 +12,59 @@
 
   <!-- JavaScript  -->
   <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/movies.js"></script>
   <script src="js/scripts.js"></script>
 
   <title>Web Template</title>
 </head>
 
 <body>
+  <!-- Image and text -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="http://unsplash.it/35/35" class="d-inline-block align-top" alt="">
+      Movie Times App
+    </a>
+  </nav>
   <div class="container">
-    <!-- input form  -->
-    <div class="row">
-      <div class="col-md-6 offset-md-3 box-decore">
-        <h1 class="text-center">Boilerplate Website</h1>
-        <form>
-          <div class="form-group">
-            <label for="input-1">Input 1</label>
-            <input type="text" class="form-control" id="input-1" aria-describedby="input">
-            <small id="input1-Help" class="form-text text-muted">You can put your thoughts here.</small>
-          </div>
-          <div class="form-group">
-            <label for="input-2">Input 2</label>
-            <input type="text" class="form-control" id="input-2">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="checkbox-1">
-            <label class="form-check-label" for="checkbox-1">Check me out</label>
-          </div>
-          <button id="submitBtn" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
-        </form>
+    <!-- select new or old -->
+    <div class="row" id="box1">
+      <div class="col-md-8 offset-md-2 box-decore text-center">
+        <h1 class="text-center">New-relase or classic films:</h1>
+        <button type="button" id="newrelease">New releases</button>
+        <button type="button" id="classic">Classics</button>
       </div>
     </div>
+    <!-- select specific movie-->
+    <div class="row" id="box2">
+      <div class="col-md-8 offset-md-2 box-decore text-center">
+        <ol id="box2--movie-list">
 
-    <!-- output box  -->
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <div class="output">Output here</div>
+        </ol>
       </div>
     </div>
+        <!-- select showtimes and age -->
+    <div class="row" id="box3">
+        <div class="col-md-8 offset-md-2 box-decore text-center">
+          <div class="movie-name"></div>
+          <div class="movie-img"></div>
+          <div class="movie-time"></div>
+          <div class="movie-brief"></div>
+          <!-- list of movie details and showtimes
+          radio buttons for showtimes
+          dropdown for age selection
+          button for 'find tickets' -->
+        </div>
+      </div>
+          <!-- select quantity and see final price -->
+      <div class="row" id="box4">
+          <div class="col-md-8 offset-md-2 box-decore text-center">
+            ticket price
+            input box for quantity
+            show final price
+          </div>
+        </div>
+
   </div>
 </body>
 
