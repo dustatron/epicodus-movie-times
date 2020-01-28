@@ -1,9 +1,53 @@
+body, html {
+  min-height: 100%;
+}
+body {
+  background-image: linear-gradient(indigo, cyan, goldenrod, darkred);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .box-decore {
   margin-top: 55px;
   padding: 25px;    
   box-shadow: 1px 1px 15px -4px rgba(0,0,0,.2);
+  background: rgba(255,255,255,0.5);
 }
 
 .output {
   margin-top: 55px;
+}
+
+#box2--movie-list {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  /* align-content: stretch; */
+  height: 100%;
+  width: 100%;
+  align-content: flex-start;
+}
+
+#box2--movie-list li{
+  width: 100%;
+  height: 40%;
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#box2--movie-list li img{
+  margin-right: 20px;
+}
+
+#box2, #box3, #box4 {
+  display: none;
+}
+
+.box3--selectors {
+  margin-top: 10px;
+  border-top: 1px solid grey;
+  padding: 10px;
 }

@@ -12,10 +12,12 @@
 
   <!-- JavaScript  -->
   <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/movies.js"></script>
   <script src="js/scripts.js"></script>
 
-  <title>Web Template</title>
+  <title>Let's go to the movies!</title>
 </head>
 
 <body>
@@ -45,10 +47,37 @@
     </div>
         <!-- select showtimes and age -->
     <div class="row" id="box3">
-        <div class="col-md-8 offset-md-2 box-decore text-center">
-          <div class="movie-name"></div>
-          <div class="movie-img"></div>
-          <div class="movie-time"></div>
+        <div class="col-md-8 offset-md-2 box-decore">
+          <div class="row">
+            <div class="col-4">
+              <div ><img class="movie-img" src=""></div>
+            </div>
+            <div class="col-8">
+              <h3 class="movie-name"></h3>
+
+              <div class="movie-time">
+                  <h4>Show Times</h4>
+                  <div class="movie-time">
+   
+                  </div>
+              </div> <!-- End Movie Times-->
+            </div>
+          </div>
+          <div class="row box3--selectors">
+            <div class="col-6">
+              <h5>Select your age</h5>
+              <select id="age">
+                  <option value="18">Over 18</option>
+                  <option value="12">Under 12</option>
+                  <option value="64">Over 64</option>
+                  <option value="0">Never learned to count</option>
+                </select>
+            </div>
+            <div class="col-6 text-right">
+              <button id="findBtn" class="btn btn-success btn-lg btn-block">Find Ticket</button>
+            </div>
+
+          </div>
           <div class="movie-brief"></div>
           <!-- list of movie details and showtimes
           radio buttons for showtimes
@@ -58,10 +87,7 @@
       </div>
           <!-- select quantity and see final price -->
       <div class="row" id="box4">
-          <div class="col-md-8 offset-md-2 box-decore text-center">
-            ticket price
-            input box for quantity
-            show final price
+          <div id="box4output" class="col-md-8 offset-md-2 box-decore text-center">
           </div>
         </div>
 

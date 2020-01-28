@@ -1,107 +1,107 @@
 var movies = [
 	{
 		name: 'Die Hard',
-		time: [1, 2, 3, 4],
+		times: [1, 2, 3, 4],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Hard",
+		img: "https://source.unsplash.com/150x200/?Hard",
 		type: "classic"
 	},
 	{
-		name: 'birds',
-		time: [3, 4, 6, 8, 9],
+		name: 'The Birds',
+		times: [3, 4, 6, 8, 9],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?bird",
+		img: "https://source.unsplash.com/150x200/?bird",
 		type: "classic"
     },
     {
 		name: 'Casablanca',
-		time: [1, 2],
+		times: [1, 2],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Casablanca",
+		img: "https://source.unsplash.com/150x200/?Casablanca",
 		type: "classic"
     },
     {
 		name: 'children of men',
-		time: [6, 7, 8],
+		times: [6, 7, 8],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?children",
+		img: "https://source.unsplash.com/150x200/?children",
 		type: "classic"
     },
     {
 		name: 'star wars',
-		time: [1, 2, 3, 4],
+		times: [1, 2, 3, 4],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?star",
+		img: "https://source.unsplash.com/150x200/?star",
 		type: "classic"
     },
     {
-		name: 'time cop',
-		time: [9],
+		name: 'times cop',
+		times: [9],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?cop",
+		img: "https://source.unsplash.com/150x200/?cop",
 		type: "classic"
     },
     {
 		name: 'Back to the future',
-		time: [1, 2, 3, 4],
+		times: [1, 2, 3, 4],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?future",
+		img: "https://source.unsplash.com/150x200/?future",
 		type: "classic"
     },
     {
 		name: 'Blaster Fun Now!',
-		time: [1, 2, 3, 4, 6, 7, 8, 9],
+		times: [1, 2, 3, 4, 6, 7, 8, 9],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Blaster",
+		img: "https://source.unsplash.com/150x200/?Blaster",
 		type: "newrelease"
     },
     {
 		name: 'Frozen III',
-		time: [1, 2, 3, 4, 6, 7],
+		times: [1, 2, 3, 4, 6, 7],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Frozen",
+		img: "https://source.unsplash.com/150x200/?Frozen",
 		type: "newrelease"
     },
     {
 		name: 'Spider Man again, part 2',
-		time: [1, 2, 3, 4, 6, 7],
+		times: [1, 2, 3, 4, 6, 7],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Spider-Man",
+		img: "https://source.unsplash.com/150x200/?Spider-Man",
 		type: "newrelease"
     },
     {
 		name: 'Born again Batman',
-		time: [3, 4, 6, 7],
+		times: [3, 4, 6, 7],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?Batman",
+		img: "https://source.unsplash.com/150x200/?Batman",
 		type: "newrelease"
     },
     {
 		name: 'The odd couple gets even',
-		time: [1, 2, 3, 4],
+		times: [1, 2, 3, 4],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?couple",
+		img: "https://source.unsplash.com/150x200/?couple",
 		type: "newrelease"
     },
     {
 		name: 'The Birds re-born',
-		time: [1, 2],
+		times: [1, 2],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?cat",
+		img: "https://source.unsplash.com/150x200/?cat",
 		type: "newrelease"
     },
     {
 		name: 'Yet another toy story movie',
-		time: [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12],
+		times: [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?toys",
+		img: "https://source.unsplash.com/150x200/?toys",
 		type: "newrelease"
     },
     {
 		name: 'Ahhhh, real zombies',
-		time: [11, 12],
+		times: [11, 12],
 		brief: "lorem ipsom",
-		img: "https://source.unsplash.com/100x100/?zombies",
+		img: "https://source.unsplash.com/150x200/?zombies",
 		type: "newrelease"
 	},
 ]
