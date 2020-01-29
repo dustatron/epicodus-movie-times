@@ -11,7 +11,7 @@ function printMovieList(option) {
 
 function attachListener() {
 	$("ol").on("click", "li", function() {
-		showMovieDetails(this.id);
+		showMovieDetails(this.id);                                                                                                                                                                                                                                                                                                                                            
 	});
 }
 
@@ -87,7 +87,6 @@ var ticket = new MovieTicket();
 $(document).ready(function() {
 	$('#findBtn').click(function(){
 		makeTicket();
-		console.log(ticket);
 	});
 
 	$('#classic').click(function() {
