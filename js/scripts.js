@@ -95,11 +95,13 @@ $(document).ready(function() {
 		attachListener();
 		$('#box2').show();
 		$('#box3').hide();
+		$('#box4').hide();
 	});
 	$('#newrelease').click(function() {
 		printMovieList('newrelease');
 		attachListener();
 		$('#box2').show();
 		$('#box3').hide();
+		$('#box4').hide();
 	});
 });
